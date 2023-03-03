@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter%3Awght%40400%3B600&family=Roboto+Mono%3Awght%40400%3B600&display=swap%27%29%3B');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  background: #2c010f;
+  color: #fff;
+}
+h1{
+  text-align: center;
+  margin-top:1rem;
+}
+table{
+  width:90%;
+  background: #FFF;
+  color: #000;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+table tr td, table tr th{
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+table tr td:not(:last-child){
+  text-align: center;
+}
+table tr:last-child td{
+  border-bottom: none;
+}
+.imgP{
+  height: 30px;
+}
+.centralizar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.partida{
+  width: 100px;
+}
+.gols{
+  line-height: 25px;
+  display: block;
+  width: 28px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+}
+
+/* estilos de tabela de classificação */
+
+h2, h3, h4,h5{
+  text-align: center;
+}
+.siglas{
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.formulario{
+  width: 90%;
+  text-align: center;
+  margin: 3 auto;
+}
+select{
+  padding: 10px;
+  border-radius: 5px;
+  font: 1.4rem;
+}
+
+/* Oitavas */
+
+.divOitavas{
+  width: 90%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 0.5fr)) ;
+  gap: 20px;
+}
+.divOitavas > div{
+  background-color: #fff7;
+  color: #000;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.jogo{
+  background-color: #fff9;
+  border-radius: 1rem;
+  padding: 6px 0;
+  margin: 10px 10px;
+}
+.dia{
+  background-color: #3c010f;
+  border-radius: 1.1rem;
+  color: #fff;
+  padding: 5px;
+  font-size: 0.7rem;
+}
+.hora{
+  background-color: #5c010f;
+  border-radius: 1.1rem;
+  color: #fff;
+  padding: 5px;
+  font-size: 0.8rem;
+}
